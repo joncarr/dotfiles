@@ -140,7 +140,6 @@ function! s:show_documentation()
 endfunction
 
 " Go related coc settings
-
 " Automatically organize imports on save
 autocmd BufWritePre *.go :call CocAction('runCommand', 'editor.action.organizeImport')
 
@@ -247,7 +246,7 @@ let g:ale_sign_hint = "➤"
 " Prettier plugin settings
 "========================================================================
 let g:prettier#config#tab_width = 4
-map <leader>p :PrettierAsync<CR>
+" map <leader>p :PrettierAsync<CR>
 
 "========================================================================
 " Rust
