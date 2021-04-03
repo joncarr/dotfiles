@@ -61,20 +61,4 @@ function ytpl () {
     youtube-dl --yes-playlist -f bestaudio --add-metadata -x --audio-format mp3 $1;
 }
 
-# Stupid reminder for water bill shit
-function water() {
-    echo "Acct 033991"
-    echo "CID 119337"
-    echo " "
-    echo "4563"
-    echo "6702"
-    echo "2926"
-    echo "4305"
-    echo " "
-    echo "12/23"
-    echo " "
-    echo "548"
-}
-
-
 
