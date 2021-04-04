@@ -90,6 +90,8 @@ set splitbelow splitright
 " Coc
 "===========================================================================
 
+let g:coc_global_extensions = ['coc-webpack', 'coc-tsserver', 'coc-toml', 'coc-snippets', 'coc-rust-analyzer', 'coc-omnisharp', 'coc-lua', 'coc-html', 'coc-godot', 'coc-go', 'coc-css']
+
 " if hidden is not set, TextEdit might fail.
 set hidden
 
